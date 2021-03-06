@@ -22,7 +22,7 @@
 .container-user{
     width: 100%;
     background-color: white;
-    border: 0.12rem rgb(230, 230, 230) solid;
+    border: 1px rgb(230, 230, 230) solid;
 }
 .instagram-image-logo {
     width: 175px;
@@ -113,7 +113,7 @@
     background-color: white;
     align-items: center;
     justify-content: center;
-    border: 0.12rem rgb(230, 230, 230) solid;
+    border: 1px rgb(230, 230, 230) solid;
 }
 
 .text {
