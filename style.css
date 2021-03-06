@@ -8,11 +8,11 @@
     font-weight: normal;
     
 }
-body {
+.corpo {
+    display: flex;
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
-    display: flex;
+    background-color: rgb(243, 243, 243);  
     justify-content: center;
 }
 
@@ -22,6 +22,7 @@ body {
 .container-user{
     width: 100%;
     background-color: white;
+    border: 0.12rem rgb(230, 230, 230) solid;
 }
 .instagram-image-logo {
     width: 175px;
@@ -56,9 +57,8 @@ body {
 }
 .continue {
     width: 225px;
-
     background-color: #0095f6;
-    padding: 5px;
+    padding: 8px;
     border-radius: 5px;
     align-items: center;
 }
@@ -87,28 +87,33 @@ body {
 
 }
 .txt-dowload {
-    display: flex;
+    text-align-last: center;
     justify-content: center;
 }
 
 .img-dowload {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    margin: 10px;
+    width: 100%;
+    padding: 1.3rem 0;
     
 }
-.img-dowload  img{
+.img-dowload  img {
     width: 125px;
     margin: 5px;
 }
 
 .not-user{
+    margin-top: 1rem;
     display: flex;
     width: 100%;
     height: 85px;
     background-color: white;
     align-items: center;
     justify-content: center;
+    border: 0.12rem rgb(230, 230, 230) solid;
 }
 
 .text {
@@ -117,6 +122,7 @@ body {
 
 .text p {
    display: inline;
+   color: rgb(160, 160, 160);
     
 }
 
@@ -126,4 +132,15 @@ body {
 
 .text-not-user h3{
     text-align: center;
+    color: rgb(160, 160, 160);
+}
+
+@media (max-width: 878px) {
+    
+    .corpo {
+        background-color: white;
+    }
+    .container-cell {
+        display: none;
+    }
 }
